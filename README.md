@@ -11,3 +11,25 @@ Following options can be performed on the linked list with the help of menu opti
 3) Update data of any node from the list
 4) Delete any node from the list
 ```
+
+## Code Example 
+```
+public class NodeList {
+
+	Node head;
+
+	static class Node {
+		String data;
+		Node next;
+
+		public Node(String d) {
+			this.data = d;
+			this.next = null;
+		}
+
+	}
+  ```
+  
+## Technology used
+Java 1.8
+
